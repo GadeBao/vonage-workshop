@@ -1,0 +1,10 @@
+runtime: nodejs16 # or another supported version
+
+# [START vonage_env]
+# The following env variables may contain sensitive information that grants
+# anyone access to your Twilio account. Do not add this file to your source control.
+env_variables:
+  API_KEY: fce245a8
+  API_SECRET: wvyXJgqDS2ClYSh5
+  FROM_NUMBER: 447312263233
+  TO_NUMBER: 819065185577
