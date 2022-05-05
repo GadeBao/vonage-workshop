@@ -4,7 +4,7 @@ runtime: nodejs16 # or another supported version
 # The following env variables may contain sensitive information that grants
 # anyone access to your Twilio account. Do not add this file to your source control.
 env_variables:
-  API_KEY: fce245a8
-  API_SECRET: wvyXJgqDS2ClYSh5
-  FROM_NUMBER: 447312263233
-  TO_NUMBER: 819065185577
+  API_KEY: fceXXXXX
+  API_SECRET: wvyXYYYYYYYYYYYY
+  FROM_NUMBER: 44731200000
+  TO_NUMBER: 819045678977
