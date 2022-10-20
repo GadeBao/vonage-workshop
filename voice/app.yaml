@@ -1,6 +1,6 @@
 runtime: nodejs16 # or another supported version
 
-service: sms
+service: voice
 
 # [START vonage_env]
 # The following env variables may contain sensitive information that grants
@@ -10,3 +10,6 @@ env_variables:
   API_SECRET: hbPngbRUnRpdo8lb
   FROM_NUMBER: 447520649993
   TO_NUMBER: 819065185577
+  VIRTUAL_NUMBER: 12013047182
+  APPLICATION_ID: 3df00490-26f1-4275-b90f-800c3bf566e7
+  PRIVATE_KEY_PATH: private.key

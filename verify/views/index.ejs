@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>myFirstEJSapp</title>
+    </head>
+    <body>
+        <h1> THIS IS THE VERIFY PAGE</h1>
+        <form action="/verify" method="POST">
+            <input type="text" placeholder="send to" name="sendto">
+            <button type="submit">SendTo</button>
+        </form>
+        <form action="/verifycheck" method="POST">
+            <input type="text" placeholder="code" name="verifycheck">
+            <button type="submit">Verify</button>
+        </form>
+    </body>
+    <script src="/index.js"></script>
+</html>

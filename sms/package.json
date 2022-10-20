@@ -7,12 +7,12 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "name": "appengine-sms",
   "version": "0.0.1",
   "description": "Vonage samples for Google App Enginesms",
-  "main": "app.js",
+  "main": "server.js",
   "author": "Billy Bao",
   "license": "Apache Version 2.0",
   "keywords": []

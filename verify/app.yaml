@@ -1,0 +1,12 @@
+runtime: nodejs16
+
+service: verify
+
+env_variables:
+  API_KEY: d9676457
+  API_SECRET: hbPngbRUnRpdo8lb
+  FROM_NUMBER: 447520649993
+  TO_NUMBER: 819065185577
+  BRAND_NAME: VonageWorkshop
+  REQUEST_ID: null
+  CODE: null

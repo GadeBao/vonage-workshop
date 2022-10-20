@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+      "express": "^4.18.1",
+      "nexmo": "^2.9.1"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "scripts": {
+      "start": "node server.js"
+    },
+    "name": "appengine-sms",
+    "version": "0.0.1",
+    "description": "Vonage samples for Google App Enginesms",
+    "main": "server.js",
+    "author": "Billy Bao",
+    "license": "Apache Version 2.0",
+    "keywords": []
+  }
